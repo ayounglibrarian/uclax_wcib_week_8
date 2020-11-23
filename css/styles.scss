@@ -6,23 +6,38 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+// .btn-default,
+// .btn-default:hover,
+// .btn-default:focus {
+//   color: #333;
+//   text-shadow: none; /* Prevent inheritance from `body` */
+//   background-color: #fff;
+//   border: 1px solid #fff;
+// }
+
+/* Regular Weight */
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+/* Bold Weight (700) Weight */
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: 700;
+}
+
+/* Thin Weight */
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-thin.ttf");
+    font-weight: 200px;
 }
 
 body {
   height: 100%;
   background-color: rgb(12,179,248);
-}
-body {
-  color: #fff;
-  // text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,25 +49,52 @@ body {
 
 .h1 {
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: 70px;
   font-weight: 700px;
 }
 
 .h2 {
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: 70px;
 }
 
 .h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  font-weight: 700px;
+  color: white;
 }
 
-.h3 {
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  color: white;
+}
+
+.h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  text-align:  left;
+    font-weight: 200px;
+    color: black;
 }
 
+.h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color: black;
+  text-align: center;
+}
+
+.h7 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align:  left;
+    font-weight: 10px;
+    color: black;
+}
 
 .button1 {
   background-color: transparent;
@@ -65,10 +107,10 @@ body {
      float:  none;
      text-align:  center;
      width:  220px;
-     height:  60px;
-     line-height:  40px;
+     height:  50px;
+     line-height: 40px;
      padding:  0px;
-     font-size:  14px;
+     font-size: 14px;
      color:  #fff;
   font-size: 16px;
   margin: 4px 2px;
@@ -76,28 +118,149 @@ body {
      border-radius: 35px;
 }
 
+
+.button2 {
+  background-color: #0081ff;
+  border: 0px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  80px;
+     height:  20px;
+     // line-height: 7px;
+     padding: 0px;
+     font-size: 11px;
+     color:  #fff;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     border-radius: 35px;
+}
+
+.button3 {
+  background-color: transparent;
+  border: 2px solid #0081ff;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  150px;
+     height:  50px;
+     line-height: 40px;
+     padding:  0px;
+     font-size: 8px;
+     color:  #000;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+     border-radius: 35px;
+}
+
+
+.button4 {
+  background-color: white;
+  border: 0px solid white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  120px;
+     height:  30px;
+     line-height: 40px;
+     padding:  0px;
+     font-size: 14px;
+     color:  #000;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+     // border-radius: 35px;
+}
+
+
+
+#background2 {
+  padding: 40px;
+  background: rgb(255,255,255);
+  background-clip: padding-box;
+}
+
+#background3 {
+  padding: 40px;
+  background: rgb(245,244,244);
+  background-clip: padding-box;
+}
+
+#background4 {
+  padding: 40px;
+  background: rgb(34,34,34);
+  background-clip: padding-box;
+}
+
+
+#background5 {
+  padding: 40px;
+  background-image: url("../images/cliffs.png")
+  // display: inline-block;
+  // background-size: cover;
+}
+
+ .crossfd {
+   background-size: cover;
+ }
+
 .row {
-  background: rgb(12,179,248);
+  background: #0cb3f8;
+}
+
+.row3 {
+background: rgb(255,255,255);
+color: #000000;
+
+}
+
+.container2 {
+background-color: rgb(255,255,255);
+
+}
+
+
+.container3 {
+  justify-content: space-evenly;
+}
+
+  .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    &.alt {
+      background: rgb(27,139,249);
+    }
 
   &.hero-image {
     background: rgb(12,179,248);
-  }
 
-.price {
-  background: white;
-  border-radius: 5px;
-  padding-top: 20px;
-  padding-top: 10px;
-  &.alt {
-    background: #1b8bf9;
-      }
-    }
-   }
+// .price {
+//   background: white;
+//   border-radius: 5px;
+//   padding-top: 20px;
+//   padding-top: 10px;
+//   &.alt {
+//     background: rgb(27,139,249);
+//   }
 
-   $grid-breakpoints: (
-  lg: 1024px
-);
-
-$container-max-widths: (
-  lg: 960px
-);
+.item {
+  flex-basis:  | auto; /* default auto */
+}
+}
+}
