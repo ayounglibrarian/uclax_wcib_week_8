@@ -1,202 +1,224 @@
-a,
-a:focus,
-a:hover {
-  color: #fff; }
-
-/* Custom default button */
-/* Regular Weight */
-@font-face {
-  font-family: Montserrat;
-  src: url("../fonts/Montserrat-Regular.ttf"); }
-
-/* Bold Weight (700) Weight */
-@font-face {
-  font-family: Montserrat;
-  src: url("../fonts/Montserrat-Bold.ttf");
-  font-weight: 700; }
-
-/* Thin Weight */
-@font-face {
-  font-family: Montserrat;
-  src: url("../fonts/Montserrat-thin.ttf");
-  font-weight: 200px; }
-
 body {
-  height: 100%;
-  background-color: #0cb3f8;
-  font-family: 'Montserrat', sans-serif; }
-
-.col-xl- {
-  width: 1140px; }
-
-.h1 {
   font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 70px;
-  font-weight: 700px; }
-
-.h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 70px; }
-
-.h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700px;
-  color: white; }
-
-.h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 9px;
-  color: white; }
-
-.h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  text-align: left;
-  font-weight: 200px;
-  color: black; }
-
-.h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
-  color: black;
-  text-align: center; }
-
-.h7 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  text-align: left;
-  font-weight: 10px;
-  color: black; }
-
-.button1 {
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  float: none;
-  text-align: center;
-  width: 220px;
-  height: 50px;
-  line-height: 40px;
-  padding: 0px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 35px; }
-
-.button2 {
-  background-color: #0081ff;
-  border: 0px;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  float: none;
-  text-align: center;
-  width: 80px;
-  height: 20px;
-  padding: 0px;
-  font-size: 11px;
-  color: #fff;
-  margin: 4px 2px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 35px; }
-
-.button3 {
-  background-color: transparent;
-  border: 2px solid #0081ff;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  float: none;
-  text-align: center;
-  width: 150px;
-  height: 50px;
-  line-height: 40px;
-  padding: 0px;
-  font-size: 8px;
-  color: #000;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 35px; }
-
-.button4 {
-  background-color: white;
-  border: 0px solid white;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  float: none;
-  text-align: center;
-  width: 120px;
-  height: 30px;
-  line-height: 40px;
-  padding: 0px;
-  font-size: 14px;
-  color: #000;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-#background2 {
-  padding: 40px;
-  background: white;
-  background-clip: padding-box; }
-
-#background3 {
-  padding: 40px;
-  background: #f5f4f4;
-  background-clip: padding-box; }
-
-#background4 {
-  padding: 40px;
-  background: #222222;
-  background-clip: padding-box; }
-
-#background5 {
-  padding: 40px;
-  background-image: url("../images/cliffs.png"); }
-
-.crossfd {
-  background-size: cover; }
-
-.row {
-  background: #0cb3f8; }
-
-.row3 {
-  background: white;
-  color: #000000; }
-
-.container2 {
-  background-color: white; }
-
-.container3 {
-  justify-content: space-evenly; }
-
-.price {
-  background: white;
-  border-radius: 5px;
-  padding-top: 20px;
-  padding-bottom: 10px; }
-  .price.alt {
-    background: #1b8bf9; }
-  .price.hero-image {
-    background: #0cb3f8; }
-    .price.hero-image .item {
-      flex-basis: | auto;
-      /* default auto */ }
+  background: #0cb3f8;
+  /* Menu bar */
+  /*top container*/
+  /*end top container*/
+  /*content beginning*/
+  /*pricing container*/
+  /*subscribe*/
+  /*footer*/ }
+  body .navbar {
+    color: white;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-right: 98px; }
+  body .navbar-brand {
+    color: white;
+    font-size: 16.39pt; }
+  body .nav-link {
+    font-size: 12pt;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; }
+  body .nav-link:hover {
+    border-bottom: 3px solid white; }
+  body h1 {
+    font-size: 70pt;
+    font-weight: bold;
+    color: white;
+    margin-top: 140px; }
+  body .hero-word {
+    font-size: 21pt;
+    color: white;
+    margin-bottom: 100px; }
+  body .learn {
+    font-size: 10pt;
+    color: white;
+    padding: 2px;
+    margin-left: 35px; }
+  body .learn:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white; }
+  body .download {
+    height: 42px;
+    width: 144px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.04em; }
+    body .download a {
+      text-decoration: none;
+      color: white; }
+  body .apple {
+    padding-right: 5px;
+    margin-top: -5px; }
+  body .btn-hover {
+    height: 42px;
+    width: 144px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: white;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #242526;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.04em; }
+    body .btn-hover a {
+      color: #242526;
+      text-decoration: none; }
+  body .bar {
+    color: #292534;
+    font-size: 13pt;
+    display: inline-flex;
+    vertical-align: middle;
+    background: white;
+    width: 100%; }
+  body .new {
+    width: 60px;
+    height: 20px;
+    background: #0081ff;
+    box-shadow: 12px 12px 6px 6px rgba(129, 255, 253, 0.2);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 9pt;
+    font-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 96px; }
+  body #newp {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  body .main {
+    background: #f4f5f5;
+    color: #242526; }
+  body #firsth2 {
+    color: #241b1c;
+    margin-top: 70px; }
+  body .content-sub {
+    color: #747474;
+    font-size: 15.99pt;
+    font-weight: lighter;
+    margin-bottom: 78px; }
+  body #mainh3 {
+    color: #241b1c;
+    font-size: 13pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px; }
+  body #mainp {
+    color: #747474;
+    font-size: 13pt;
+    text-align: center;
+    margin-bottom: 75px; }
+  body .iphone {
+    margin-bottom: 100px; }
+  body .row-price {
+    background: #222222;
+    color: white; }
+  body h2 {
+    font-size: 44pt;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 35px; }
+  body #prices {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase; }
+  body .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-bottom: 110px;
+    margin-top: 40px;
+    color: #242526; }
+    body .price.blue {
+      background: #1b8bf9;
+      color: white; }
+  body .price ul {
+    padding: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: normal; }
+  body .price p {
+    font-size: 12pt;
+    font-weight: normal; }
+  body .pricing {
+    background: none;
+    border: none; }
+  body #amount {
+    font-size: 48pt;
+    font-weight: bold; }
+  body #sub {
+    font-size: 16pt;
+    color: #bcc6d0;
+    font-weight: lighter;
+    padding-bottom: 40px; }
+  body .subscribe {
+    background-image: url(../images/cliffs.png);
+    background-size: cover;
+    color: white; }
+  body #subscribeh2 {
+    color: white;
+    margin-top: 67px; }
+  body .subscribe-sub {
+    font-size: 14pt;
+    font-weight: lighter;
+    margin-top: 22px;
+    margin-bottom: 53px; }
+  body .entrybox {
+    width: 321px;
+    height: 43px;
+    border-radius: 5px;
+    opacity: .25;
+    border: none;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 96px; }
+  body .send {
+    width: 144px;
+    height: 42px;
+    background: white;
+    border-radius: 5px;
+    color: #242525;
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 96px; }
+  body footer {
+    background: white;
+    color: #242526;
+    padding-top: 50px;
+    padding-left: 93px;
+    padding-right: 93px; }
+  body .footer-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: #242526; }
+  body .footie {
+    text-decoration: none;
+    color: #242526;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-bottom: 45px; }
+  body .about-us {
+    font-size: 11pt;
+    font-weight: lighter;
+    padding-top: 40px; }
