@@ -184,6 +184,9 @@ body {
     font-weight: lighter;
     margin-top: 22px;
     margin-bottom: 53px; }
+  body .subscribe .form-inline {
+    padding-left: 30px;
+    padding-right: 30px; }
   body .entrybox {
     width: 321px;
     height: 43px;
