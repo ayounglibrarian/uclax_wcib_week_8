@@ -80,6 +80,9 @@ body {
     body .btn-hover a {
       color: #242526;
       text-decoration: none; }
+    body .btn-hover body img.iphone_tilted {
+      margin-bottom: -60px;
+      margin-right: -20px; }
   body .bar {
     color: #292534;
     font-size: 13pt;
